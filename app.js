@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(cookieParser(process.env.COOKIE_SECRET));
 //route
 
-//error handeler
+//error
 app.listen(process.env.PORT, () => {
   console.log(`app listening to port ${process.env.PORT}`);
 });
